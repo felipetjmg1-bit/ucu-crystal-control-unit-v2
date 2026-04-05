@@ -1,0 +1,60 @@
+
+ucu_hardware_schematic: {
+    shape: rectangle
+    label: "Esquemático de Hardware da UCU"
+
+    processor: {
+        shape: rectangle
+        label: "Processador de Quartzo"
+    }
+
+    optical_transceiver_txrx_1: {
+        shape: circle
+        label: "Transceptor Óptico TX/RX"
+    }
+
+    fiber_optic_bus: {
+        shape: rectangle
+        label: "Barramento de Fibra Óptica"
+    }
+
+    optical_transceiver_txrx_2: {
+        shape: circle
+        label: "Transceptor Óptico TX/RX"
+    }
+
+    io_module: {
+        shape: rectangle
+        label: "Módulo de E/S Óptico"
+    }
+
+    sensors_actuators: {
+        shape: parallelogram
+        label: "Sensores/Atuadores"
+    }
+
+    optical_transceiver_txrx_3: {
+        shape: circle
+        label: "Transceptor Óptico TX/RX"
+    }
+
+    bms_module: {
+        shape: rectangle
+        label: "Módulo BMS Óptico"
+    }
+
+    niobium_batteries: {
+        shape: cylinder
+        label: "Baterias de Nióbio"
+    }
+
+    processor -> optical_transceiver_txrx_1: "Sinais Elétricos/Ópticos"
+    optical_transceiver_txrx_1 -> fiber_optic_bus: "Fibra Óptica"
+    fiber_optic_bus -> optical_transceiver_txrx_2: "Fibra Óptica"
+    optical_transceiver_txrx_2 -> io_module: "Sinais Elétricos/Ópticos"
+    io_module -> sensors_actuators
+
+    fiber_optic_bus -> optical_transceiver_txrx_3: "Fibra Óptica"
+    optical_transceiver_txrx_3 -> bms_module: "Sinais Elétricos/Ópticos"
+    bms_module -> niobium_batteries
+}
