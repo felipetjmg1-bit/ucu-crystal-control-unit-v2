@@ -1,4 +1,4 @@
-![Status: Experimental](https://img.shields.io/badge/Status-Demonstra%C3%A7%C3%A3o%20t%C3%A9cnica-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/ucu-crystal-control-unit-v2)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Demonstração técnica](https://img.shields.io/badge/Status-Demonstra%C3%A7%C3%A3o%20t%C3%A9cnica-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/ucu-crystal-control-unit-v2)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de UCU v2" width="100%"></p>
 
@@ -57,7 +57,7 @@ Essas rotas demonstram somente o fluxo local em memória; não comprovam integra
 
 ## Estado e limitações
 
-**Maturidade indicada:** Experimental.
+**Estado de entrega:** demonstrações de software e diagramas conceituais.
 
 - O README de integração menciona a biblioteca `rand` como possível dependência Python, mas o script não usa rand/random: importa FastAPI e Pydantic e, no caminho de execução direta, Uvicorn. Isso torna a orientação de dependências incompleta/incorreta.
 - O código de BMS descreve sensores e balanceamento, mas as leituras são geradas por simulação; comentários indicam que a lógica de carga/descarga está por implementar. Não apresentar como firmware validado para bateria ou hardware real.
