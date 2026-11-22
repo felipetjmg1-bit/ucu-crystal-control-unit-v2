@@ -1,4 +1,4 @@
-![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/ucu-crystal-control-unit-v2)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Experimental](https://img.shields.io/badge/Status-Demonstra%C3%A7%C3%A3o%20t%C3%A9cnica-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/ucu-crystal-control-unit-v2)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de UCU v2" width="100%"></p>
 
